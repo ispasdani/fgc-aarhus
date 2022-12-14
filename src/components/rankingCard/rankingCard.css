@@ -1,0 +1,43 @@
+.ranking-card {
+  width: 250px;
+  height: 300px;
+  margin: 0px 20px;
+}
+
+.ranking-title {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  margin: 10px;
+}
+
+.ranking-card-labels {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.score-label {
+  margin: 0px 10px;
+  color: white;
+}
+
+.ranking-card-labels div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ranking-card-labels div p {
+  font-size: 12px;
+  margin: 0px 10px;
+  color: white;
+}
+
+.ranking-players-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #323255;
+}

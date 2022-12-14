@@ -1,0 +1,122 @@
+.suggested-match {
+  width: 100vw;
+  height: 90vh;
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.suggested-match-title {
+  font-size: 50px;
+  width: 70vw;
+  margin: 0;
+  font-weight: bold;
+}
+
+.suggested-wrapper {
+  width: 70vw;
+  height: 40vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.suggested-person-img {
+  width: 200px;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.suggested-info {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 60%;
+  height: 40vh;
+}
+
+.suggested-info-top {
+  width: 100%;
+}
+
+.suggested-info-top p:nth-child(1) {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+
+.suggested-info-top p:nth-child(2) {
+  font-size: 16px;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+
+.suggested-info-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.suggested-info-bottom p {
+  font-size: 16px;
+  color: #5ccdd6;
+  cursor: pointer;
+  transition: 0.5s all ease-in-out;
+}
+
+.suggested-info-bottom p:hover {
+  transform: scale(1.1);
+}
+
+.suggested-btn {
+  background-color: white;
+  color: black;
+  width: 250px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Orbitron", sans-serif;
+  margin: 10px 10%;
+  position: relative;
+  transition: 0.3s all ease-in-out;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.suggested-btn::before {
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+.suggested-btn:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.suggested-btn:hover {
+  transform: scale(1.1);
+  color: white;
+}
+
+.suggested-btn::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  background: #5ccdd6;
+  z-index: -1;
+  transition: transform 0.3s ease;
+}

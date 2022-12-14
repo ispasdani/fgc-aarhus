@@ -1,0 +1,71 @@
+.match-making-page {
+  width: 100vw;
+  min-height: 90vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-family: "Alexandria", sans-serif;
+}
+
+.match-making-title {
+  font-size: 60px;
+  font-weight: bold;
+  margin: 5% 10px 10px 10px;
+  width: 50vw;
+}
+
+.match-making-desc {
+  font-weight: 100;
+  width: 50vw;
+}
+
+.match-making-date {
+  width: 50vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.match-making-date label {
+  margin-right: 10px;
+}
+
+.match-making-date input {
+  background-color: transparent;
+  color: #5ccdd6;
+  outline: none;
+  color-scheme: dark;
+  border: none;
+  cursor: pointer;
+}
+
+.match-form {
+  width: 50vw;
+  margin: 3% 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.match-form input {
+  background-color: transparent;
+  border: none;
+  color: #5ccdd6;
+  outline: none;
+  font-size: 18px;
+  padding: 0;
+}
+
+.match-form input::placeholder {
+  color: #5ccdd6;
+}
+
+.games-choices {
+  width: 50vw;
+  min-height: 50vh;
+  margin-top: 5px;
+  margin-bottom: 5%;
+}

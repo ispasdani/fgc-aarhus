@@ -1,0 +1,137 @@
+.contact {
+  width: 100vw;
+  height: 90vh;
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-contact {
+  width: 100vw;
+  height: 45vh;
+  background-color: #323255;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.card-contact p:nth-child(1) {
+  font-size: 50px;
+  color: white;
+  margin: 20px 10px 10px 5%;
+}
+
+.card-contact p:nth-child(2) {
+  color: white;
+  margin: 10px 0px;
+  margin-left: 5%;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.contact-details div {
+  width: 33%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.contact-details div:nth-child(1) {
+  margin-left: 5%;
+}
+
+.contact-details div:nth-child(3) svg {
+  margin: 0px 10px;
+  cursor: pointer;
+  transition: 0.5s all ease-in-out;
+}
+
+.contact-details div:nth-child(3) svg:hover {
+  transform: scale(1.2);
+}
+
+.visit-us-section {
+  width: 100vw;
+  height: 45vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.visit-left-side {
+  width: 80vw;
+  height: 45vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+  z-index: 2;
+}
+
+.visit-title {
+  color: white;
+  font-size: 50px;
+  margin: 0;
+  margin-left: 5%;
+}
+
+.visit-desc {
+  margin: 0;
+  color: white;
+  margin-left: 5%;
+}
+
+.visit-location {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.visit-location div:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+}
+
+.visit-location div:nth-child(1) p {
+  font-size: 12px;
+  color: white;
+  margin: 0px 10px;
+}
+
+.visit-location div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.visit-location div:nth-child(2) p {
+  font-size: 12px;
+  color: white;
+  margin: 0px 10px;
+}
+
+.visit-right-side {
+  width: 20vw;
+  height: 45vh;
+  position: relative;
+}
+
+.visit-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 400px;
+}

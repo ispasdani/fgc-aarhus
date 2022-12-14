@@ -1,0 +1,68 @@
+.events {
+  width: 100vw;
+  min-height: 90vh;
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.events-top {
+  width: 70vw;
+  height: 25vh;
+}
+
+.events-top p:nth-child(1) {
+  font-size: 50px;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.events-top p:nth-child(2) {
+  color: white;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.events-bottom {
+  width: 100vw;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.events-display-type-container {
+  width: 70vw;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.events-bottom label {
+  color: white;
+}
+
+.events-bottom select {
+  margin-left: 20px;
+  color: #5ccdd6;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.events-content-cards {
+  width: 70vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}

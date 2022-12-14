@@ -1,0 +1,110 @@
+{
+  "tekken": [
+    {
+      "place": 1,
+      "name": "Resta",
+      "score": "500"
+    },
+    {
+      "place": 2,
+      "name": "Duxa",
+      "score": "450"
+    },
+    {
+      "place": 3,
+      "name": "Murgy",
+      "score": "420"
+    },
+    {
+      "place": 4,
+      "name": "Mogo",
+      "score": "410"
+    },
+    {
+      "place": 5,
+      "name": "Balotal",
+      "score": "390"
+    }
+  ],
+  "bros": [
+    {
+      "place": 1,
+      "name": "Skyro",
+      "score": "500"
+    },
+    {
+      "place": 2,
+      "name": "HayZol",
+      "score": "450"
+    },
+    {
+      "place": 3,
+      "name": "Junanago",
+      "score": "420"
+    },
+    {
+      "place": 4,
+      "name": "Hi_Kai",
+      "score": "410"
+    },
+    {
+      "place": 5,
+      "name": "Punda",
+      "score": "390"
+    }
+  ],
+  "gear": [
+    {
+      "place": 1,
+      "name": "Rachman",
+      "score": "500"
+    },
+    {
+      "place": 2,
+      "name": "Jonas",
+      "score": "450"
+    },
+    {
+      "place": 3,
+      "name": "Punk",
+      "score": "420"
+    },
+    {
+      "place": 4,
+      "name": "Viaduct",
+      "score": "410"
+    },
+    {
+      "place": 5,
+      "name": "Shanks",
+      "score": "390"
+    }
+  ],
+  "dragon": [
+    {
+      "place": 1,
+      "name": "PoneCake",
+      "score": "500"
+    },
+    {
+      "place": 2,
+      "name": "Mich",
+      "score": "450"
+    },
+    {
+      "place": 3,
+      "name": "Raachman",
+      "score": "420"
+    },
+    {
+      "place": 4,
+      "name": "Wawa",
+      "score": "410"
+    },
+    {
+      "place": 5,
+      "name": "Yasha",
+      "score": "390"
+    }
+  ]
+}

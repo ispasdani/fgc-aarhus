@@ -1,0 +1,101 @@
+{
+  "beginner": [
+    {
+      "id": 425,
+      "name": "James Bond",
+      "email": "high-skill@gmail.com"
+    },
+    {
+      "id": 342,
+      "name": "Frido Begans",
+      "email": "frido123@gmail.com"
+    },
+
+    {
+      "id": 123,
+      "name": "Marcel Huggo",
+      "email": "marcelhugo@gmail.com"
+    },
+    {
+      "id": 473,
+      "name": "Bondy Clyde",
+      "email": "bondyclyde@gmail.com"
+    },
+    {
+      "id": 223,
+      "name": "Lana Bond",
+      "email": "lana23@gmail.com"
+    },
+    {
+      "id": 312,
+      "name": "James Watson",
+      "email": "water@gmail.com"
+    }
+  ],
+  "intermediate": [
+    {
+      "id": 987,
+      "name": "Das Juan",
+      "email": "juam232@gmail.com"
+    },
+    {
+      "id": 876,
+      "name": "Booker T",
+      "email": "tKing@gmail.com"
+    },
+    {
+      "id": 564,
+      "name": "Carl Jox",
+      "email": "joxfighter@gmail.com"
+    },
+    {
+      "id": 359,
+      "name": "John Cena",
+      "email": "youcantseeme@gmail.com"
+    }
+  ],
+  "semipro": [
+    {
+      "id": 938,
+      "name": "Dave Bautista",
+      "email": "bautistaD@gmail.com"
+    },
+    {
+      "id": 132,
+      "name": "John Carl",
+      "email": "john232D@gmail.com"
+    },
+    {
+      "id": 894,
+      "name": "Mariano Divo",
+      "email": "mariano_div@gmail.com"
+    },
+    {
+      "id": 921,
+      "name": "David Blake",
+      "email": "david_b@gmail.com"
+    }
+  ],
+  "pro": [
+    {
+      "id": 723,
+      "name": "David Jon",
+      "email": "jon_23@gmail.com"
+    },
+    {
+      "id": 766,
+      "name": "Jon Jones",
+      "email": "jones_das@gmail.com"
+    },
+    {
+      "id": 762,
+      "name": "Conor Daer",
+      "email": "daer_2321@gmail.com"
+    },
+    {
+      "id": 799,
+      "name": "Dide Iustina",
+      "email": "iustina_2432@gmail.com"
+    }
+  ]
+}

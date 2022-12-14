@@ -1,0 +1,110 @@
+.about {
+  width: 100vw;
+  min-height: 90vh;
+  background-color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+
+.slick-next {
+  background-color: #5ccdd6;
+}
+
+.about-carousel {
+  width: 70vw;
+  height: auto;
+}
+
+.about-img {
+  height: 200px;
+  object-fit: cover;
+  z-index: 20;
+}
+
+.about-title {
+  width: 70vw;
+  color: white;
+  font-size: 45px;
+  margin: 20px 0px;
+}
+
+.about-desc {
+  width: 70vw;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.about-quest-wrapper {
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 20px 0px;
+}
+
+.about-quest-wrapper p {
+  color: white;
+  font-size: 30px;
+  margin: 2px 0px;
+}
+
+.about-btn {
+  background-color: white;
+  color: black;
+  width: 250px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Orbitron", sans-serif;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  position: relative;
+  transition: 0.3s all ease-in-out;
+  cursor: pointer;
+  letter-spacing: 1px;
+  align-self: flex-start;
+}
+
+.about-btn::before {
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+.about-btn:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.about-btn:hover {
+  transform: scale(1.1);
+  color: white;
+}
+
+.about-btn::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  background: #5ccdd6;
+  z-index: -1;
+  transition: transform 0.3s ease;
+}
+
+.btn-about-wrapp {
+  width: 70vw;
+}

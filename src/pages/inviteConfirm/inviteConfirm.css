@@ -1,0 +1,80 @@
+.invitation-container {
+  width: 100vw;
+  height: 90vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.card-invitation {
+  width: 70%;
+  height: 60%;
+  background-color: #323255;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+  position: relative;
+}
+
+.invite-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  margin: 0;
+  transform: rotate(10deg);
+}
+
+.invitation-first-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.invitation-first-row p {
+  font-size: 50px;
+  margin: 0;
+  color: white;
+  margin-left: 5%;
+  margin-right: 10px;
+}
+
+.invitation-first-row svg {
+  margin-right: 5%;
+  margin-left: 10px;
+  transition: 0.5s all ease-in-out;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.invitation-first-row svg:hover {
+  transform: rotate(360deg) scale(1.2);
+}
+
+.invitation-desc-row {
+  width: 60%;
+  margin-left: 5%;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  color: white;
+  z-index: 1;
+}
+
+.go-to-home-from-invite-btn {
+  margin-left: 5%;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  color: #5ccdd6;
+  transition: 0.5s all ease-in-out;
+  cursor: pointer;
+}
+
+.go-to-home-from-invite-btn:hover {
+  transform: scale(1.1);
+}

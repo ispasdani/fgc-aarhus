@@ -1,0 +1,403 @@
+.homepage {
+  width: 100vw;
+  min-height: 90vh;
+  background-color: black;
+}
+
+.herobox {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-left-side {
+  width: 40%;
+  height: 90vh;
+  background-image: url("../../assets/fgca3.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-right-side {
+  width: 60%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.right-text-row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.herobox-title-text {
+  color: white;
+  font-size: 50px;
+  font-family: "Orbitron", sans-serif;
+  font-weight: bold;
+  margin: 10px 10%;
+}
+
+.become-a-member-btn {
+  background-color: white;
+  width: 250px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Orbitron", sans-serif;
+  align-self: flex-start;
+  margin: 10px 10%;
+  position: relative;
+  transition: 0.3s all ease-in-out;
+  cursor: pointer;
+}
+
+.become-a-member-btn::before {
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+.become-a-member-btn:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.become-a-member-btn:hover {
+  transform: scale(1.1);
+  color: white;
+}
+
+.become-a-member-btn::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  background: #5ccdd6;
+  z-index: -1;
+  transition: transform 0.3s ease;
+}
+
+.actions-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+}
+
+.action-media-btn svg {
+  font-size: 30px;
+  margin-right: 20px;
+  transition: 0.5s all ease-in-out;
+}
+
+.action-media-btn svg:hover {
+  transform: scale(1.2);
+}
+
+.arrows {
+  width: 60px;
+  height: 72px;
+  margin-right: 10%;
+}
+
+.arrows path {
+  stroke: #5ccdd6;
+  fill: transparent;
+  stroke-width: 4px;
+  animation: arrow 2s infinite;
+  -webkit-animation: arrow 2s infinite;
+}
+
+@keyframes arrow {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/ {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.arrows path.a1 {
+  animation-delay: -1s;
+  -webkit-animation-delay: -1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+  animation-delay: -0.5s;
+  -webkit-animation-delay: -0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s; /* Safari 和 Chrome */
+}
+
+/*/////////////////////////////*/
+
+.hover-underline-animation {
+  position: relative;
+  color: #5ccdd6;
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Orbitron", sans-serif;
+  margin: 20px 10%;
+  cursor: pointer;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #5ccdd6;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.who-we-are-section {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #323255;
+}
+
+.who-we-are-left {
+  width: 50%;
+  height: 30vh;
+}
+
+.who-we-are-right {
+  width: 50%;
+  height: 30vh;
+  position: relative;
+}
+
+.who-we-are-left-top {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.who-we-are-left-top p {
+  margin: 0;
+  font-size: 40px;
+  margin: 5px 10%;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 500;
+  color: white;
+}
+
+.who-we-are-left-top p:nth-child(1) {
+  margin-top: 20px;
+}
+
+.events-section {
+  width: 100vw;
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  font-family: "Orbitron", sans-serif;
+}
+
+.events-label {
+  font-size: 20px;
+  color: #5ccdd6;
+  margin: 5px 5%;
+}
+
+.events-title {
+  margin: 20px 5%;
+}
+
+.events-title p {
+  color: white;
+  margin: 0;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.events-description {
+  color: white;
+  font-weight: 300;
+  margin: 5px 5%;
+  width: 80%;
+}
+
+.events-img {
+  width: 90%;
+  height: 40vh;
+  background-image: url("../../assets/eventImg.png");
+  background-position: center;
+  background-size: cover;
+  align-self: center;
+  margin-top: 25px;
+}
+
+/*//////////////////////////////////////////*/
+.buddy-section {
+  width: 100vw;
+  height: 60vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Orbitron", sans-serif;
+}
+
+.buddy-let-side {
+  width: 50vw;
+  height: 100%;
+  background-color: blue;
+}
+
+.buddy-title {
+  margin-left: 5%;
+}
+
+.buddy-title p {
+  font-size: 45px;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+
+.buddy-des {
+  font-size: 20px;
+  width: 80%;
+  margin-left: 5%;
+  margin-right: 10px;
+}
+
+.buddy-right-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 100%;
+  background-image: url("../../assets/buddyImg.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.download-app-section {
+  width: 100vw;
+  height: 70vh;
+  background-color: black;
+  font-family: "Orbitron", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.download-app-title {
+  color: white;
+  font-weight: bold;
+  font-size: 45px;
+  margin: 0;
+  text-align: center;
+}
+
+.download-app-desc {
+  color: white;
+  font-weight: 100;
+  letter-spacing: 1px;
+  margin: 20px;
+}
+
+.download-app-btn {
+  background-color: white;
+  color: black;
+  width: 250px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Orbitron", sans-serif;
+  margin: 10px 10%;
+  position: relative;
+  transition: 0.3s all ease-in-out;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.download-app-btn::before {
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+.download-app-btn:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.download-app-btn:hover {
+  transform: scale(1.1);
+  color: white;
+}
+
+.download-app-btn::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  background: #5ccdd6;
+  z-index: -1;
+  transition: transform 0.3s ease;
+}

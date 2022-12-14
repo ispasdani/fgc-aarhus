@@ -1,0 +1,44 @@
+.footer {
+  width: 100vw;
+  height: 40vh;
+  background-color: #323255;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Alexandria", sans-serif;
+  color: white;
+}
+
+.footer-left-side {
+  width: 50%;
+  height: 40vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.footer-left-side p {
+  margin: 5px 5%;
+}
+
+.footer-left-side p:nth-child(1) {
+  margin-top: 5%;
+}
+
+.footer-right-side {
+  width: 50%;
+  height: 40vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.footer-right-side p {
+  margin: 5%;
+}
+
+.footer-media-icons {
+  margin: 0px 5%;
+}

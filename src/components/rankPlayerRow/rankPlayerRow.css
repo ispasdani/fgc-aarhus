@@ -1,0 +1,26 @@
+.ranking-player-row {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  width: 95%;
+  height: 6vh;
+  border-bottom: 1px solid #5ccdd6;
+}
+
+.ranking-player-row div {
+  width: 35%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.ranking-player-row div p {
+  color: white;
+  margin: 0px 5px;
+}
+
+.score-row-value {
+  margin: 0px 5px;
+  color: #5ccdd6;
+}
