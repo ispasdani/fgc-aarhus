@@ -18,7 +18,7 @@ function App() {
       <BrowserRouter>
         <MainLayout>
           <Routes>
-            <Route path="/" element={<Homepage />} />
+            <Route path="/fgc-aarhus/" element={<Homepage />} />
             <Route path="/fgc-aarhus/match-making" element={<MatchMaking />} />
             <Route
               path="/fgc-aarhus/selected-match"
