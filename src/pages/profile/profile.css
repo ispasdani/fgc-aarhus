@@ -1,0 +1,374 @@
+.profile {
+  width: 100vw;
+  min-height: 90vh;
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profile-title {
+  font-size: 45px;
+  color: white;
+  width: 80vw;
+  margin: 30px 0px;
+}
+
+.profile-info-card {
+  width: 80vw;
+  height: 25vh;
+  background-color: #323255;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-img {
+  width: 20vw;
+  height: 25vh;
+  background-image: url("../../assets/personS.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: none;
+}
+
+.profile-details {
+  width: 20vw;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.profile-name {
+  color: white;
+}
+
+.profile-skill {
+  color: white;
+}
+
+.profile-details p {
+  margin: 0;
+  margin: 5px 15px;
+}
+
+.profile-details p:nth-child(2) {
+  font-size: 12px;
+}
+
+.history-numbers {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.history-labels {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+}
+
+.edit-and-mail-btns {
+  width: 20vw;
+  height: 25vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.edit-and-mail-btns p {
+  color: #5ccdd6;
+  transition: 0.4s all ease-in-out;
+  cursor: pointer;
+  text-align: center;
+  margin: 10px;
+}
+
+.edit-and-mail-btns p:nth-child(1):hover {
+  transform: scale(1.1);
+}
+
+.wins {
+  color: #58bf3a;
+}
+
+.loses {
+  color: #de2222;
+}
+
+.ties {
+  color: #e6c300;
+}
+
+.profile-bottom {
+  width: 80vw;
+  min-height: 50vh;
+  margin: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.profile-checkers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profile-buddy-checker {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.profile-buddy-checker div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-buddy-checker p {
+  margin: 3px 5px;
+}
+
+.profile-buddy-checker div p {
+  color: white;
+}
+
+.profile-buddy-checker svg {
+  margin: 3px 5px;
+  color: #58bf3a;
+}
+
+.profile-random-checker {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.profile-random-checker div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-random-checker p {
+  margin: 3px 5px;
+}
+.profile-random-checker div p {
+  color: white;
+}
+
+.profile-random-checker svg {
+  margin: 3px 5px;
+  color: #58bf3a;
+}
+
+.small-labels {
+  font-size: 12px;
+  color: rgba(150, 150, 150, 0.407);
+}
+
+@media only screen and (max-width: 1178px) {
+  .profile-info-card {
+    width: 80vw;
+  }
+  .edit-and-mail-btns {
+    width: 30vw;
+  }
+
+  .profile-details {
+    width: 20vw;
+  }
+
+  .profile-img {
+  }
+}
+
+@media only screen and (max-width: 885px) {
+  .profile-info-card {
+    width: 80vw;
+    height: 20vh;
+  }
+  .edit-and-mail-btns {
+    width: 35vw;
+    height: 20vh;
+  }
+
+  .profile-details {
+    width: 25vw;
+    height: 20vh;
+  }
+
+  .profile-img {
+    width: 20vw;
+    height: 20vh;
+  }
+}
+
+@media only screen and (max-width: 699px) {
+  .profile-info-card {
+    flex-direction: column;
+    height: 70vh;
+    width: 250px;
+  }
+  .edit-and-mail-btns {
+    width: 100%;
+    height: 20vh;
+    align-items: center;
+  }
+
+  .profile-details {
+    width: 100%;
+    height: 20vh;
+    align-items: center;
+  }
+
+  .profile-img {
+    width: 250px;
+    height: 200px;
+    align-items: center;
+  }
+
+  .profile-bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+  .overall-win {
+    margin: 50px 0px;
+  }
+}
+
+.pieContainer {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  margin-top: 10px;
+  margin: 10px 20px;
+  transition: 0.5s all ease-in-out;
+  cursor: pointer;
+}
+
+.pieContainer:hover {
+  transform: scale(1.1);
+}
+
+.pieBackground {
+  background-color: #5ccdd6;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  -webkit-box-shadow: 0px 0px 5px 1px #5ccdd6;
+  box-shadow: 0px 0px 5px 1px #5ccdd6;
+}
+
+.stat-circle-cover {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  background-color: black;
+  height: 80%;
+  width: 80%;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  -moz-box-shadow: inset 0px 0px 5px #666;
+  -webkit-box-shadow: inset 0px 0px 5px #666;
+  box-shadow: inset 0px 0px 1px #666;
+}
+
+.stat-number {
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-size: 12px;
+}
+
+.stat-number p {
+  margin: 0;
+}
+
+.stat-number p:nth-child(1) {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.stat-number p:nth-child(2) {
+  font-size: 12px;
+}
+
+.stat-number p:nth-child(3) {
+  font-size: 12px;
+}
+
+.pie {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  clip: rect(0px, 50px, 100px, 0px);
+}
+
+.hold {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  clip: rect(0px, 100px, 100px, 50px);
+}
+
+#pieSlice25 .pie {
+  background-color: #e57b07;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+#pieSlice50 .pie {
+  background-color: #e57b07;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.overall-title {
+  color: white;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.overall-title:before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 50%;
+  left: 0;
+  border-top: 1px solid white;
+}

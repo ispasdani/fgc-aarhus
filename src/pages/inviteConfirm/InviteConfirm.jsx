@@ -6,7 +6,7 @@ export const InviteConfirm = () => {
   const navigate = useNavigate();
 
   const navigateToHomeFromInvite = () => {
-    navigate(`/`);
+    navigate(`/fgc-aarhus/`);
   };
 
   return (

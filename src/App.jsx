@@ -11,35 +11,44 @@ import { Events } from "./pages/events/Events";
 import { Ranking } from "./pages/ranking/Ranking";
 import { About } from "./pages/aboutUs/About";
 import { Profile } from "./pages/profile/Profile";
+import { AuthContextProvider } from "./contexts/AuthContext";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <MainLayout>
-          <Routes>
-            <Route path="/fgc-aarhus/" element={<Homepage />} />
-            <Route path="/fgc-aarhus/match-making" element={<MatchMaking />} />
-            <Route
-              path="/fgc-aarhus/selected-match"
-              element={<SelectedMatch />}
-            />
-            <Route path="/fgc-aarhus/random-match" element={<RandomMatch />} />
-            <Route
-              path="/fgc-aarhus/random-match-result"
-              element={<RandomMatchResult />}
-            />
-            <Route
-              path="/fgc-aarhus/invitation-send"
-              element={<InviteConfirm />}
-            />
-            <Route path="/fgc-aarhus/contact" element={<Contact />} />
-            <Route path="/fgc-aarhus/events" element={<Events />} />
-            <Route path="/fgc-aarhus/ranking" element={<Ranking />} />
-            <Route path="/fgc-aarhus/about" element={<About />} />
-            <Route path="/fgc-aarhus/profile" element={<Profile />} />
-          </Routes>
-        </MainLayout>
+        <AuthContextProvider>
+          <MainLayout>
+            <Routes>
+              <Route path="/fgc-aarhus/" element={<Homepage />} />
+              <Route
+                path="/fgc-aarhus/match-making"
+                element={<MatchMaking />}
+              />
+              <Route
+                path="/fgc-aarhus/selected-match"
+                element={<SelectedMatch />}
+              />
+              <Route
+                path="/fgc-aarhus/random-match"
+                element={<RandomMatch />}
+              />
+              <Route
+                path="/fgc-aarhus/random-match-result"
+                element={<RandomMatchResult />}
+              />
+              <Route
+                path="/fgc-aarhus/invitation-send"
+                element={<InviteConfirm />}
+              />
+              <Route path="/fgc-aarhus/contact" element={<Contact />} />
+              <Route path="/fgc-aarhus/events" element={<Events />} />
+              <Route path="/fgc-aarhus/ranking" element={<Ranking />} />
+              <Route path="/fgc-aarhus/about" element={<About />} />
+              <Route path="/fgc-aarhus/profile" element={<Profile />} />
+            </Routes>
+          </MainLayout>
+        </AuthContextProvider>
       </BrowserRouter>
     </div>
   );
