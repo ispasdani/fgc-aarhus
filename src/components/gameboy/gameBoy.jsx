@@ -1,4 +1,4 @@
-import "./gameboy.css";
+import "./gameBoy.css";
 
 export const GameBoy = () => {
   return (
