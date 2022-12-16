@@ -1,7 +1,7 @@
 .events {
   width: 100vw;
   min-height: 90vh;
-  background-color: black;
+  background-color: #000e19;
   font-family: "Poppins", sans-serif;
   display: flex;
   justify-content: flex-start;
