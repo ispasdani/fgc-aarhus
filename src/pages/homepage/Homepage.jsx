@@ -44,7 +44,7 @@ export const Homepage = () => {
             <p>We love playing</p>
             <p>together. A lot.</p>
           </div>
-          <p className="hover-underline-animation">Who are we</p>
+          <Link to="/fgc-aarhus/about" className="hover-underline-animation">Who are we</Link>
         </div>
         <div className="who-we-are-right">
           <GameBoy />
