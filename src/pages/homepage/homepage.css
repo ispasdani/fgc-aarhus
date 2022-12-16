@@ -1,7 +1,8 @@
 .homepage {
   width: 100vw;
   min-height: 90vh;
-  background-color: black;
+  background-color: #000E19;
+  overflow: hidden;
 }
 
 .herobox {
@@ -258,6 +259,8 @@
   font-size: 20px;
   color: #5ccdd6;
   margin: 5px 5%;
+  padding-top: 20px;
+  text-decoration: none;
 }
 
 .events-title {
@@ -340,7 +343,7 @@
 .download-app-section {
   width: 100vw;
   height: 70vh;
-  background-color: black;
+  background-color: #000E19;
   font-family: "Orbitron", sans-serif;
   display: flex;
   justify-content: center;
