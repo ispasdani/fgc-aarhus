@@ -73,6 +73,7 @@ export const Homepage = () => {
             newcomer can get themselves a buddy, who will help them integrate
             smoothly.
           </p>
+          <div className="get-a-buddy-btn">Get a buddy</div>
         </div>
         <div className="buddy-right-side"></div>
       </div>

@@ -292,7 +292,7 @@
 .buddy-section {
   width: 100vw;
   height: 60vh;
-  background-color: white;
+  background-color: #323255;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -302,10 +302,15 @@
 .buddy-left-side {
   width: 50vw;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
 }
 
 .buddy-title {
   margin-left: 5%;
+  color: white;
 }
 
 .buddy-title p {
@@ -316,6 +321,7 @@
 
 .buddy-des {
   font-size: 20px;
+  color: white;
   width: 80%;
   margin-left: 5%;
   margin-right: 10px;
@@ -328,7 +334,6 @@
   width: 50vw;
   height: 100%;
   background-image: url("../../assets/buddyImg.png");
-  background-position: center;
   background-size: cover;
 }
 
@@ -367,28 +372,44 @@
   justify-content: center;
   align-items: center;
   font-family: "Orbitron", sans-serif;
-  margin: 10px 10%;
+  margin: 5px 10%;
   position: relative;
   transition: 0.3s all ease-in-out;
   cursor: pointer;
   letter-spacing: 1px;
 }
 
-.download-app-btn::before {
+.get-a-buddy-btn{
+  background-color: white;
+  color: black;
+  width: 250px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Orbitron", sans-serif;
+  margin: 5%;
+  position: relative;
+  transition: 0.3s all ease-in-out;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.download-app-btn::before, .get-a-buddy-btn::before {
   transform: scaleX(0);
   transform-origin: bottom right;
 }
-.download-app-btn:hover::before {
+.download-app-btn:hover::before, .get-a-buddy-btn:hover::before {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
 
-.download-app-btn:hover {
+.download-app-btn:hover, .get-a-buddy-btn:hover {
   transform: scale(1.1);
   color: white;
 }
 
-.download-app-btn::before {
+.download-app-btn::before, .get-a-buddy-btn::before {
   content: " ";
   display: block;
   position: absolute;
