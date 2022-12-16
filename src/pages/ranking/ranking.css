@@ -18,6 +18,8 @@
   font-size: 45px;
   color: white;
   margin: 10px 0px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 500;
 }
 
 .ranking-top p:nth-child(2) {
