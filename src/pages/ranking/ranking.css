@@ -39,6 +39,7 @@
   height: 50px;
   object-fit: cover;
   z-index: 20;
+  cursor: pointer;
 }
 
 .ranking-bottom {
