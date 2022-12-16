@@ -3,6 +3,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import { GameBoy } from "../../components/gameboy/gameBoy";
+import { Link } from "react-router-dom";
 
 export const Homepage = () => {
   return (
@@ -50,7 +51,7 @@ export const Homepage = () => {
         </div>
       </div>
       <div className="events-section">
-        <p className="events-label">Events</p>
+        
         <div className="events-title">
           <p>We always make</p>
           <p>boring Wednesdays fun</p>
@@ -61,6 +62,7 @@ export const Homepage = () => {
           about which you can find out more on the “Events” page.
         </p>
         <div className="events-img"></div>
+        <Link to="/fgc-aarhus/events" className="events-label hover-underline-animation">Events</Link>
       </div>
       <div className="buddy-section">
         <div className="buddy-left-side">
