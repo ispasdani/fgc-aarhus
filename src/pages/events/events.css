@@ -17,7 +17,7 @@
 .events-top p:nth-child(1) {
   font-size: 50px;
   font-family: "Orbitron", sans-serif;
-  font-weight: bolder;
+  font-weight: 500;
   color: white;
   margin-top: 20px;
   margin-bottom: 10px;
