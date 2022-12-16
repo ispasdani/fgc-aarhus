@@ -1,7 +1,7 @@
 .match-making-page {
   width: 100vw;
   min-height: 90vh;
-  background-color: black;
+  background-color: #000e19;
   display: flex;
   justify-content: center;
   align-items: center;
