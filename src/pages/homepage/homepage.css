@@ -215,12 +215,12 @@
 }
 
 .who-we-are-left {
-  width: 50%;
+  width: 60%;
   height: 30vh;
 }
 
 .who-we-are-right {
-  width: 50%;
+  width: 40%;
   height: 30vh;
   position: relative;
 }
@@ -238,7 +238,7 @@
   font-size: 40px;
   margin: 5px 10%;
   font-family: "Poppins", sans-serif;
-  font-weight: normal;
+  font-weight: bold;
   color: white;
 }
 
